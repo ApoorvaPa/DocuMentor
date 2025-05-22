@@ -1,4 +1,4 @@
-# 🤖 DocuMentor: An AI Agent for Multimodal Document Question Answering
+#  DocuMentor: An AI Agent for Multimodal Document Question Answering
 
 **DocuMentor** is an open-source **AI Agent** that answers questions from PDFs and JPGs using **Retrieval-Augmented Generation (RAG)**. It supports real-time, document-grounded responses by coordinating modular tools through a unified interface, including OCR, vector search, and large language models (LLMs). Built with **MCP (Model Context Protocol)** compatibility, it is designed for seamless LLM integration and scalable deployment.
 
