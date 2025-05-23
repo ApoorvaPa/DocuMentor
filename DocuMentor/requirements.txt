@@ -1,11 +1,34 @@
+# fastapi
+# uvicorn[standard]
+# pydantic
+# aiofiles
+# python-multipart
+# sentence-transformers
+# faiss-cpu
+# PyMuPDF
+# pytesseract
+# Pillow
+# openai
+# Core API
 fastapi
 uvicorn[standard]
 pydantic
 aiofiles
 python-multipart
-sentence-transformers
-faiss-cpu
+python-dotenv
+
+# PDF + OCR
 PyMuPDF
 pytesseract
 Pillow
-openai
+
+# Embedding & RAG
+sentence-transformers
+faiss-cpu
+
+# HuggingFace local model support
+transformers
+accelerate
+bitsandbytes  # For 4-bit quantized model support
+safetensors
+torch  # DO NOT list here — install with GPU CUDA wheel
