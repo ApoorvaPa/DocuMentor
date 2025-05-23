@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+DocuMentor/Include/
+DocuMentor/Lib/
+DocuMentor/Scripts/
+DocuMentor/pyvenv.cfg
+
+# Ignore environment config files
+.env
+.venv/
+env/
+venv/
+ENV/
+.Python
+
+# Ignore VS Code settings (optional but clean)
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore pip-wheel-metadata if it appears
+pip-wheel-metadata/
+
+# Ignore Jupyter Notebook checkpoints (in case)
+.ipynb_checkpoints/
+
+# Ignore any temporary scrape results or output
+# *.csv
+# *.json
+# results/
+# output/
+# scraped_data/
